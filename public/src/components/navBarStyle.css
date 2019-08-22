@@ -1,0 +1,22 @@
+section {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  margin: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+h1 a {
+  font-size: 1.4em;
+}
+
+h2 a {
+  font-size: 1em;
+}
+
