@@ -1,0 +1,22 @@
+.nav-bar {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  margin: 8px;
+}
+
+.linkers {
+ text-decoration: none;
+ color: red;
+ text-shadow: 1px 1px black ;
+}
+ .linkers:hover {
+   color: green;
+ }
+
+
+
+
+
