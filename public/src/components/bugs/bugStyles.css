@@ -1,0 +1,27 @@
+.bug {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  margin: 4px;
+  height: 15rem;
+  width: 10rem;
+}
+
+.name {
+  margin: 0;
+}
+.bug-img {
+  width: 6em;
+}
+.description {
+  margin: 0;
+}
+.dead-title {
+  margin: 0;
+}
+.deadliness  {
+  margin: 0;
+}

@@ -7,6 +7,7 @@ import {
 // import './appStyle.css';
 import NavBar from '../components/nav/NavBar';
 import Splash from './splash/Splash';
+import Bugs from '../containers/Bugs';
 
 export default function App() {
   return (
@@ -14,9 +15,7 @@ export default function App() {
     <NavBar />
     <Switch>
       <Route exact path="/" component={Splash} />
-      {/* <Route path="/search/:searchTerm" component={ErrContainer} />
-      <Route path="/newErr" component={NewErr} />
-      <Route path="/displayErr/:errId" component={DisplayError} /> */}
+      <Route path="/bugs" component={Bugs} />
     </Switch>
   </Router>
   );
